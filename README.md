@@ -42,10 +42,6 @@ Limitations
 
 •	The program lacks comprehensive error handling. If an error occurs during the calculation process, the program may not provide informative error messages to the user, making it difficult to diagnose and fix issues.
 
-•	As the program is designed to run in a single-threaded environment, it may not scale well for handling multiple concurrent requests or large-scale computations.
-
-•	The factorial calculation algorithm used in the program is straightforward but may not be efficient for large numbers. Calculating the factorial of large numbers can quickly result in very large values, leading to potential performance issues and memory constraints.
-
 
 License
 This program is licensed under the Apache License 2.0. See the LICENSE file for details.
