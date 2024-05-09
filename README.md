@@ -6,7 +6,7 @@ Description
 The program consists of the following components: 
 1.	Factorial() function: This function takes a number as input and calculates its factorial using a loop. It returns the factorial value. 
 2.	validateInput() function: This function takes user input as a parameter and validates whether it is a non-negative integer. It returns ‘true’ if the input is valid and ‘false’ otherwise. 
-3.	Main() function: This is the main function of the program. It prompts the user to enter a number, validates input, calculates the factorial using the ‘factorial ()’ function, and displays the results. 
+3.	Main() function: This is the main function of the program. It prompts the user to enter a number, validates the input, calculates the factorial using the ‘factorial ()’ function, and displays the results. 
 
 How to use
 To use the program, follow these steps:
@@ -33,6 +33,15 @@ Benefits
 •	The program is organized into functions (methods), promoting code modularity and reusability.
 
 •	It handles input validation by ensuring that the user inputs a non-negative integer, enhancing the robustness of the program
+
+Limitations
+
+1.	The program assumes that the user will always enter valid input. It checks for non-negative integers but doesn't handle other types of input errors, such as non-integer input or very large numbers that exceed JavaScript's numeric limits.
+2.	The program uses prompt() for user input and console.log() for output. While this is fine for a basic command-line interface, it may not be suitable for more complex applications that require a graphical user interface (GUI) or interactive web interface.
+3.	The program lacks comprehensive error handling. If an error occurs during the calculation process, the program may not provide informative error messages to the user, making it difficult to diagnose and fix issues.
+4.	As the program is designed to run in a single-threaded environment, it may not scale well for handling multiple concurrent requests or large-scale computations.
+5.	The factorial calculation algorithm used in the program is straightforward but may not be efficient for large numbers. Calculating the factorial of large numbers can quickly result in very large values, leading to potential performance issues and memory constraints.
+
 
 License
 This program is licensed under the Apache License 2.0. See the LICENSE file for details.
