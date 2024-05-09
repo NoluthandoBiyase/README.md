@@ -21,6 +21,7 @@ Enter a number to calculate its factorial: 5
 The factorial of 5 is: 120
 
 Benefits 
+
 •	It can be used as an educational tool to demonstrate recursion in Java programming.
 •	Factorials have various applications in mathematics, probability, and computer science, making the program useful in real-world scenarios.
 •	It interacts with the user by prompting them to enter a number, enhancing user engagement and understanding.
