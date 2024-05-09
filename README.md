@@ -23,10 +23,15 @@ The factorial of 5 is: 120
 Benefits 
 
 •	It can be used as an educational tool to demonstrate recursion in Java programming.
+
 •	Factorials have various applications in mathematics, probability, and computer science, making the program useful in real-world scenarios.
+
 •	It interacts with the user by prompting them to enter a number, enhancing user engagement and understanding.
+
 •	The program is relatively simple and easy to understand, making it suitable for beginners to learn Java programming concepts.
+
 •	The program is organized into functions (methods), promoting code modularity and reusability.
+
 •	It handles input validation by ensuring that the user inputs a non-negative integer, enhancing the robustness of the program
 
 License
