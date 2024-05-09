@@ -36,11 +36,15 @@ Benefits
 
 Limitations
 
-1.	The program assumes that the user will always enter valid input. It checks for non-negative integers but doesn't handle other types of input errors, such as non-integer input or very large numbers that exceed JavaScript's numeric limits.
-2.	The program uses prompt() for user input and console.log() for output. While this is fine for a basic command-line interface, it may not be suitable for more complex applications that require a graphical user interface (GUI) or interactive web interface.
-3.	The program lacks comprehensive error handling. If an error occurs during the calculation process, the program may not provide informative error messages to the user, making it difficult to diagnose and fix issues.
-4.	As the program is designed to run in a single-threaded environment, it may not scale well for handling multiple concurrent requests or large-scale computations.
-5.	The factorial calculation algorithm used in the program is straightforward but may not be efficient for large numbers. Calculating the factorial of large numbers can quickly result in very large values, leading to potential performance issues and memory constraints.
+•	The program assumes that the user will always enter valid input. It checks for non-negative integers but doesn't handle other types of input errors, such as non-integer input or very large numbers that exceed JavaScript's numeric limits.
+
+•	The program uses prompt() for user input and console.log() for output. While this is fine for a basic command-line interface, it may not be suitable for more complex applications that require a graphical user interface (GUI) or interactive web interface.
+
+•	The program lacks comprehensive error handling. If an error occurs during the calculation process, the program may not provide informative error messages to the user, making it difficult to diagnose and fix issues.
+
+•	As the program is designed to run in a single-threaded environment, it may not scale well for handling multiple concurrent requests or large-scale computations.
+
+•	The factorial calculation algorithm used in the program is straightforward but may not be efficient for large numbers. Calculating the factorial of large numbers can quickly result in very large values, leading to potential performance issues and memory constraints.
 
 
 License
